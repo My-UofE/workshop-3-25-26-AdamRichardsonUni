@@ -5,6 +5,9 @@ public class DemoIncrement {
         int b = a++ + 5;
         int x = 3;
         int y = ++x + 5;
+        int p = 3;
+        ++p;
+        int q = p + 5;
 
         System.out.print("a: " + a);
         System.out.print(", b: " + b);
@@ -15,9 +18,6 @@ public class DemoIncrement {
         System.out.println("i++ means post-increment");
         System.out.println("++i means pre-increment");
 
-        int p = 3;
-        ++p;
-        int q = p + 5;
     }
 }
 
