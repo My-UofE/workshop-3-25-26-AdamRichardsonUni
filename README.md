@@ -53,8 +53,8 @@ public class DemoIncrement {
         System.out.println(", y: " + y);
 
         // Replace the xxxxx in the following with the correct term
-        System.out.println("i++ means xxxxx-increment");
-        System.out.println("++i means xxxxx-increment");
+        System.out.println("i++ means post-increment");
+        System.out.println("++i means pre-increment");
     }
 }
 ```
@@ -63,7 +63,7 @@ Predict what values will be stored in `a` `b` `x` `y` after the program runs.
 
 **1.** Copy the code into file `DemoIncrement.java`, compile and run it.
 
-Did it behave as you expect?
+Did it behave as you expect? Yes
 
 **2.** Complete the last two printed lines by replacing `xxxxx` with the correct terms.
 
